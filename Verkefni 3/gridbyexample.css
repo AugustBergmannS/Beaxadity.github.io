@@ -1,0 +1,92 @@
+.stick{
+    text-align: center;
+    background: rgb(172, 113, 42);
+}
+
+.litur{
+    background-color: rgb(172, 113, 42);
+}
+.grid1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "nav1 nav2 nav3 nav4 nav5"
+    "vinstri midja midja midja haegri"
+    "footer footer footer footer footer";
+}
+
+.h{
+    grid-area: haus;
+    background:rgb(172, 113, 42);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: firebrick;
+    text-align: center;
+}
+
+.dekkri{
+    background-color: coral;
+}
+
+.burly{
+    background-color: burlywood;
+}
+
+.mid{
+    background-color: rgb(172, 113, 42);
+    text-align: center;
+}
+
+.nav1{
+    grid-area: nav1;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.nav2{
+    grid-area: nav2;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.nav3{
+    grid-area: nav3;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.nav4{
+    grid-area: nav4;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.nav5{
+    grid-area: nav5;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.vinstri{
+    grid-area: vinstri;
+    background: brown;
+    text-align: center;
+}
+
+.midja{
+    grid-area: midja;
+    background: bisque;
+    text-align: center;
+}
+
+.haegri{
+    grid-area: haegri;
+    background: brown;
+    text-align: center;
+}
+
+.footer{
+    grid-area: footer;
+    background: burlywood;
+    text-align: center;
+}

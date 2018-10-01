@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.litur{
+    background-color: rgb(117, 117, 201);
+}
+.grid1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "nav1 nav2 nav3 nav4 nav5"
+    "haus haus haus haus haus"
+    "vinstri vinstri vinstri midja haegri"
+    "footer footer footer footer footer";
+}
+
+.h{
+    grid-area: haus;
+    text-align: center;
+    color:lightblue;
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+}
+
+.nav1{
+    grid-area: nav1;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.nav2{
+    grid-area: nav2;
+    text-align: center;
+    background-color: blue;
+}
+
+.nav3{
+    grid-area: nav3;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.nav4{
+    grid-area: nav4;
+    text-align: center;
+    background-color: blue;
+}
+
+.nav5{
+    grid-area: nav5;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.vinstri{
+    grid-area: vinstri;
+    background-color: lightblue;
+}
+
+.midja{
+    grid-area: midja;
+    background-color: grey;
+    color:white;
+}
+
+.haegri{
+    grid-area: haegri;
+    background-color: grey;
+    color: white;
+}
+
+.footer{
+    grid-area: footer;
+    text-align: center;
+}
+
+.nav6{
+    grid-area: nav6;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.nav7{
+    grid-area: nav7;
+    text-align: center;
+    background-color: blue;
+}
+
+.nav8{
+    grid-area: nav8;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.nav9{
+    grid-area: nav9;
+    text-align: center;
+    background-color: blue;
+}
+
+.grid2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "nav6 nav7 nav8 nav9"
+}
