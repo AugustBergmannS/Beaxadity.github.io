@@ -1,0 +1,110 @@
+body{
+    background: magenta;
+}
+
+.Imagine{
+    color:red;
+    font-weight: bold;
+}
+
+.rammi{
+    color: aqua;
+    padding-left: 10mm
+}
+
+a{
+    color:blue;
+}
+
+a:visited{
+    color:cornsilk;
+}
+
+a:hover{
+    color:goldenrod;
+}
+
+a:active{
+    color:darkslategray;
+}
+
+.konungur{
+    color:mediumslateblue;
+    text-decoration-line:underline;
+}
+
+.Elvis{
+    color:cyan;
+}
+
+.dead{
+    color:wheat;
+}
+
+.lestur{
+    color:tomato;
+}
+
+.Lennon{
+    color:rebeccapurple;
+    padding-left:10mm;
+}
+
+.auka{
+    color:aqua;
+}
+
+.top{
+    color:moccasin;
+    text-align: center;
+}
+
+.lower{
+    color:lightgoldenrodyellow;
+    text-align: center;
+}
+
+.middle{
+    color:brown;
+    text-align: center;
+}
+
+.emphasis{
+    color:gold;
+    text-align: center;
+}
+
+.main{
+    color:skyblue;
+    text-align: center;
+}
+
+.same{
+    color:darkorange;
+    text-align: center;
+}
+
+.forbidden{
+    color:hotpink;
+    text-align: center;
+}
+
+.listi{
+    color:red
+}
+
+.Ipsum{
+    color:teal
+}
+
+.Loremh{
+    color:darkorchid
+}
+
+.Loremh1{
+    color:deeppink
+}
+
+.Lorem{
+    color:honeydew
+}
