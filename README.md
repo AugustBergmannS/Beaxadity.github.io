@@ -1,2 +1,2 @@
 # Beaxadity
-[Verkefni 1](/verkefni1/Verkefni 1.html)
+[Verkefni 2](/Verkefni2/Verk 2.html)
