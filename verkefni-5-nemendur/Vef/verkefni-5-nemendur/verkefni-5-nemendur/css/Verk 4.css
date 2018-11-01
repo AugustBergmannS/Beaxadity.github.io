@@ -1,0 +1,31 @@
+.body1{
+    background: linear-gradient(blue, blue, darkblue);
+}
+
+.header1{
+    color:lightgoldenrodyellow;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width:960px;
+    margin: 0 auto;
+}
+.div3{
+    width: 960px;
+    height: 22em;
+    padding-top: 0.5em;
+    margin: 0 auto;
+}
+.sec1{
+    background: linear-gradient(lightgoldenrodyellow,goldenrod);
+    text-align:center;
+}
+
+.bloc{
+    background: rgba(255,255,255,50%);
+}
+
+.footer1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+}
